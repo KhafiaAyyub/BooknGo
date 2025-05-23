@@ -9,6 +9,7 @@ group = 'com.example.travel'
 version = '0.0.1-SNAPSHOT'
 
 java {
+<<<<<<< HEAD
     toolchain {
         languageVersion = JavaLanguageVersion.of(23)
     }
@@ -20,6 +21,15 @@ repositories {
 	    // Required for auto-download:
 	    gradlePluginPortal()
 
+=======
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+repositories {
+	mavenCentral()
+>>>>>>> ad5f7806ad04195b07345d9b1ce7e1f50ea2995c
 }
 
 ext {
